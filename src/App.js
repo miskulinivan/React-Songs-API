@@ -9,8 +9,12 @@ const API_KEY = `${process.env.REACT_APP_API}`;
 
 function App() {
     const [songs, setSongs] = useState([]);
-    const [query, setQuery] = useState('');
-    const [alert, setAlert] = useState({ message: '', showAlert: false });
+    const [query, setQuery] = useState('toto africa');
+    const [alert, setAlert] = useState({
+        message: '',
+        showAlert: false,
+        color: '',
+    });
     const [finalQuery, setFinalQuery] = useState('');
     const [theme, setTheme] = useState('light-theme');
 

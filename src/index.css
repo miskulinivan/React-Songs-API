@@ -172,9 +172,12 @@ p {
     .btn {
         width: 1.2rem;
     }
+    .alert h4 {
+        margin-left: 2rem;
+    }
 }
-@media only screen and (max-width: 350px) {
-    ::placeholder {
-        font-size: 0.5rem;
+@media only screen and (max-width: 400px) {
+    .alert h4 {
+        margin-left: 1rem;
     }
 }
