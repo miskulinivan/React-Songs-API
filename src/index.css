@@ -178,6 +178,6 @@ p {
 }
 @media only screen and (max-width: 400px) {
     .alert h4 {
-        margin-left: 1rem;
+        margin-left: 1.5rem;
     }
 }
